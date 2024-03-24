@@ -8,6 +8,7 @@ Console.WriteLine();
 
 Console.ReadKey(false);
 
+#pragma warning disable CA1416
 Console.Write("0 ");
 Console.Beep(1320, 200);
 Thread.Sleep(1500);
